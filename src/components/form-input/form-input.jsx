@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import './form-input.scss';
 
 const FormInput = ({ handleChange, label, ...otherProps }) => {

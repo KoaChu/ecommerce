@@ -4,7 +4,7 @@ import CustomButton from '../custom-button/custom-button';
 
 import { auth, signInWithGoogle } from '../../firebase/firebase-utils';
 
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 
 class SignIn extends Component {
 

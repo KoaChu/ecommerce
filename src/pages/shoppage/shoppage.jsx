@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import SHOP_DATA from './shopdata.js';
 import PreviewCollection from '../../components/preview-collection/preview-collection';
 

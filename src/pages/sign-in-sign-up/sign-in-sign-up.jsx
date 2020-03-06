@@ -1,7 +1,7 @@
 import './sign-in-sign-up.scss';
 import SignIn from '../../components/sign-in/sign-in';
 import SignUp from '../../components/sign-up/sign-up';
-import React, { PropTypes } from 'react';
+import React from 'react';
 
 const SignInAndSignUp = () => {
     return (

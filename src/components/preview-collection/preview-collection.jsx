@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import './preview-collection.scss';
 import CollectionItem from '../collection-item/collection-item';
 
@@ -10,8 +10,8 @@ const PreviewCollection = ({ title, items }) => {
         		{
         			items
         			.filter((item, idx) => idx < 4)
-        			.map(({ id, ...otherItemProps }) => (
-        				<CollectionItem key={id} {...otherItemProps} />
+        			.map((item) => (
+        				<CollectionItem key={item.id} item={item} />
         				))
         		}
 
