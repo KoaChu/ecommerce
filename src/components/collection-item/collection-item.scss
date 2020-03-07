@@ -20,6 +20,8 @@
     position: absolute;
     top: 255px;
     display: none;
+    user-select: none;
+    border-color: black;
   }
 
   &:hover {
@@ -29,6 +31,7 @@
     .custom-button {
       opacity: 0.85;
       display: flex;
+      user-select: none;
     }
   }
 
